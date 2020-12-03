@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "고문경"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n신황태자비 납치사건의 등장인물을 시각화\n\u003c/p\u003e\n\n\u003cp\u003e\n이 책은 을미사변과 난징대학살의 역사적 사건을 포함하고 있습니다\n\u003c/p\u003e",
+    "intro": "도서\u003c신황태자비 납치사건\u003e 등장인물을 연결하여 시각화하였습니다",
+    "title": "신황태자비 납치사건 등장인물 관계"
+  },
+  "legend": {
+    "edgeLabel": "등장인물관계",
+    "colorLabel": "국가",
+    "nodeLabel": "소설 등장인물"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "nationality",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
